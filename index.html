@@ -12,31 +12,38 @@
     <div class="header">
         <div class="container">
             <div class="header__container">
-                <a href="#"><img src="./img/logo.svg" alt="" class="header__logo"></a>
+                <div class="header__box">
+                    <a href="#"><img src="./img/logo.svg" alt="" class="header__logo"></a>
+                </div>
                 <ul class="header__list">
-                    <li class="header__items"><a href="#">Home</a></li>
-                    <li class="header__items"><a href="#">About us</a></li>
-                    <li class="header__items"><a href="#">Features</a></li>
-                    <li class="header__items"><a href="#">Pricing</a></li>
-                    <li class="header__items"><a href="#">FAQ</a></li>
-                    <li class="header__items"><a href="#">Blog</a></li>
+                    <li class="header__items"><a class="navigation__link" href="#">Home</a></li>
+                    <li class="header__items"><a class="navigation__link" href="#">About us</a></li>
+                    <li class="header__items"><a class="navigation__link" href="#">Features</a></li>
+                    <li class="header__items"><a class="navigation__link" href="#">Pricing</a></li>
+                    <li class="header__items"><a class="navigation__link" href="#">FAQ</a></li>
+                    <li class="header__items"><a class="navigation__link" href="#">Blog</a></li>
                     <li class="header__items"><button class="header__btn">Contact us</button></li>
                 </ul>
+                <div class="bars">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </div>
             </div>
         </div>
-        <div class="hero">
-            <div class="container">
-                <div class="hero__container">
-                    <div class="hero__box">
+    </div>
+    <div class="hero">
+        <div class="container">
+             <div class="hero__container">
+                 <div class="hero__box">
                         <h1 class="hero__title">Building stellar websites for early startups</h1>
                         <p class="hero__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
                         <span class="hero__span">
-                            <button class="hero__btn-one">View our work</button>
-                            <button class="hero__btn-two">View Pricing  <i class="fas fa-arrow-right"></i></button>
+                            <button class="hero__btn">View our work</button>
+                            <button class="hero__btn">View Pricing  <i class="fas fa-arrow-right"></i></button>
                         </span>
                     </div>
-                    <img src="./img/hero.svg" alt="" class="hero__img-one">
-                </div>
+                <img src="./img/hero.svg" alt="" class="hero__img-one">
             </div>
         </div>
     </div>
@@ -46,7 +53,7 @@
                 <div class="work__box">
                     <h2 class="work__title">How we work</h2>
                     <p class="work__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
-                    <button class="work__btn">Get in touch with us <i class="fas fa-arrow-right"></i></button>
+                    <button class="work__btn">Get in touch with us <i class="fas fa-arrow-right right"></i></button>
                 </div>
                 <ul class="work__list">
                     <li class="work__items">
@@ -76,24 +83,27 @@
     <div class="project">
         <div class="container">
             <div class="project__container">
-                <h3 class="project__title">View our projects</h3>
+                <div class="project__box">
+                    <h3 class="project__title">View our projects</h3>
                 <button class="project__btn">View More <i class="fas fa-arrow-right"></i></button>
+                </div>
                 <ul class="project__list">
                     <li class="project__items">
                         <img src="./img/project.svg" alt="" class="project__img-one">
-                        <img src="./img/projectfon.svg" alt="" class="project__img-one">
-                        <h3 class="project__title">Workhub office Webflow Webflow Design</h3>
+                        <img src="./img/projectfon.svg" alt="" class="project__fon-one">
+                        <h3 class="project__title-name">Workhub office Webflow Webflow Design</h3>
                         <p class="project__text">Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam </p>
-                        <button class="project__btn">View project <i class="fas fa-arrow-right"></i></button>
+                        <button class="project__btn-one">View project <i class="fas fa-arrow-right"></i></button>
                     </li>
-                    <li class="project__items">
+                    <li class="project__items-name">
                         <img src="./img/project2.svg" alt="" class="project__img-two">
                         <img src="./img/projectfon2.svg" alt="" class="project__fon-two">
-                        <h3 class="project__title">Unisaas Website Design</h3>
-                        <button class="project__btn">View portfolio →</button>
+                        <h3 class="project__title-two">Unisaas Website Design</h3>
+                        <button class="project__btn-two">View portfolio <i class="fas fa-arrow-right"></i></button>
+                        <img src="./img/project3.svg" alt="" class="project__img-three">
                     </li>
-                    <li class="project__items">
-                        <img src="./img/project3.svg" alt="" class="project__img">
+                    <li class="project__items-name">
+                       
                     </li>
                 </ul>
             </div>
@@ -155,13 +165,12 @@
                            <h4 class="testimonials__job">Vice President</h4>
                         </span>
                     </span>
-                </div>
-                <div class="arrows">
+                    <div class="arrows">
                     <div class="arrow-btn left-arrow active">
-                     <i class="fas fa-arrow-left"></i>
+                     <i class="fas fa-chevron-left"></i>
                     </div>
                     <div class="arrow-btn right-arrow">
-                     <i class="fas fa-arrow-right"></i>
+                     <i class="fas fa-chevron-right"></i>
                     </div>
                </div>
                <div class="dots">
@@ -169,10 +178,178 @@
                   <div class="dot" data-index="1"></div>
                   <div class="dot" data-index="2"></div>
                </div>
+                </div>
             </div>
         </div>
     </div>
-    
+    <div class="faq">
+        <div class="container">
+            <div class="faq__container">
+                <div class="faq__box">
+                    <h5 class="faq__title">Frequently asked questions</h5>
+                    <button class="faq__btn">Contact us for more info</button>
+                </div>
+                <div class="faq__list">
+                    <div class="faq__items">
+                        <div class="faq__questions">
+                            <span class="faq__span">How much time does it take?</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                           <p  class="faq__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </div>
+                    </div>
+                    <div class="faq__items">
+                        <div class="faq__questions">
+                            <span class="faq__span">What is your class naming convention?</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                           <p  class="faq__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </div>
+                    </div>
+                    <div class="faq__items">
+                        <div class="faq__questions">
+                            <span class="faq__span">How do you communicate?</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                           <p  class="faq__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </div>
+                    </div>
+                    <div class="faq__items">
+                        <div class="faq__questions">
+                            <span class="faq__span">I have a bigger project. Can you handle it?</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                           <p  class="faq__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </div>
+                    </div>
+                    <div class="faq__items">
+                        <div class="faq__questions">
+                            <span class="faq__span">What is your class naming convention?</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                           <p  class="faq__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="contact">
+        <div class="container">
+            <div class="contact__container">
+                <div class="contact__box">
+                    <h5 class="contact__title">Building stellar websites for early startups</h5>
+                    <p class="contact__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+                </div>
+                <div class="contact__boxs">
+                    <h5 class="contact__title-name">Send inquiry</h5>
+                    <p class="contact__text-name">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+                    <form action="#" class="contact__form">
+                        <div class="input-box">
+                         <input type="text" id="name" required placeholder=" ">
+                         <label for="name">Your Name</label>
+                       </div>
+                       <div class="input-box">
+                         <input type="email" id="name" required placeholder=" ">
+                         <label for="name">Email</label>
+                       </div>
+                       <div class="input-box">
+                         <input type="url" id="name" required placeholder=" ">
+                         <label for="name">Paste your Figma design URL</label>
+                       </div>
+                       <button class="contact__btn" type="submit">Send an Inquiry</button>
+                       <button class="contact__btn" type="submit">Get in touch with us<i class="fas fa-arrow-right"></i></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="blog">
+        <div class="container">
+            <div class="blog__container">
+                <h5 class="blog__title">Our blog</h5>
+                <ul class="blog__list">
+                    <li class="blog__items">
+                        <img src="./img/blog.svg" alt="" class="blog__img">
+                        <time datetime="19-01-2022" class="blog__time">19 Jan 2022</time>
+                        <h5 class="blog__title-name">How one Webflow user grew his single person consultancy from $0-100K in 14 months</h5>
+                        <p class="blog__text-name">See how pivoting to Webflow changed one person’s sales strategy and allowed him to attract</p>
+                        <button class="blog__btn">Read More<i class="fas fa-arrow-right"></i></button>
+                    </li>
+                    <li class="blog__items">
+                        <img src="./img/blog2.svg" alt="" class="blog__img">
+                        <time datetime="19-01-2022" class="blog__time">19 Jan 2022</time>
+                        <h5 class="blog__title-name">How one Webflow user grew his single person consultancy from $0-100K in 14 months</h5>
+                        <p class="blog__text-name">See how pivoting to Webflow changed one person’s sales strategy and allowed him to attract</p>
+                        <button class="blog__btn">Read More<i class="fas fa-arrow-right"></i></button>
+                    </li>
+                    <li class="blog__items">
+                        <img src="./img/blog3.svg" alt="" class="blog__img">
+                        <time datetime="19-01-2022" class="blog__time">19 Jan 2022</time>
+                        <h5 class="blog__title-name">How one Webflow user grew his single person consultancy from $0-100K in 14 months</h5>
+                        <p class="blog__text-name">See how pivoting to Webflow changed one person’s sales strategy and allowed him to attract</p>
+                        <button class="blog__btn">Read More<i class="fas fa-arrow-right"></i></button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="container">
+            <div class="footer__container">
+                <a href="#"><img src="./img/logo.svg" alt="" class="footer__logo"></a>
+                <p class="footer__text"></p>
+                <div class="footer__contact">
+                    <div class="footer__email">
+                        <h6 class="footer__title-email"></h6>
+                        <a href="#" class="footer__email"></a>
+                    </div>
+                    <div class="footer__phone">
+                        <h6 class="footer__title-phone"></h6>
+                        <a href="#" class="footer__phone"></a>
+                    </div>
+                </div>
+                <div class="footer__box">
+                    <h6 class="footer__title"></h6>
+                    <p class="footer__text">
+                        <div class="footer__apps">
+                            <a href=""><i class="fab fa-facebook app"></i></a>
+                            <a href=""><i class="fab fa-twitter app"></i></a>
+                            <a href=""><i class="fab fa-instagram app"></i></a>
+                            <a href=""><i class="fab fa-youtube app"></i></a>
+                        </div>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+     <div class="navigation">
+        <div class="container">
+            <div class="navigation__container">
+                 <p class="navigation__p"></p>
+                <ul class="navigation__list">
+                    <li class="navigation__items"><a class="navigation__link" href="#">Home</a></li>
+                    <li class="navigation__items"><a class="navigation__link" href="#">About us</a></li>
+                    <li class="navigation__items"><a class="navigation__link" href="#">Features</a></li>
+                    <li class="navigation__items"><a class="navigation__link" href="#">Pricing</a></li>
+                    <li class="navigation__items"><a class="navigation__link" href="#">FAQ</a></li>
+                    <li class="navigation__items"><a class="navigation__link" href="#">Blog</a></li>
+                </ul>
+                <div class="navigation__bars">
+                    <div class="navigation__bar"></div>
+                    <div class="navigation__bar"></div>
+                    <div class="navigation__bar"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
  <script src="./js/main.js"></script>
 </body>
 </html>
